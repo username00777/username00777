@@ -1,0 +1,56 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base Canvas -->
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="12" fill="#FAFAFA" stroke="#E4E4E7" />
+
+  <!-- Architectural Swiss Grid -->
+  <g stroke="#09090B" stroke-opacity="0.04" stroke-width="1">
+    <line x1="72" y1="0" x2="72" y2="320" />
+    <line x1="640" y1="0" x2="640" y2="320" />
+    <line x1="1208" y1="0" x2="1208" y2="320" />
+    <line x1="0" y1="48" x2="1280" y2="48" />
+    <line x1="0" y1="272" x2="1280" y2="272" />
+  </g>
+
+  <!-- Registration Crosshairs -->
+  <g stroke="#09090B" stroke-opacity="0.2" stroke-width="1">
+    <path d="M67 48H77M72 43V53" />
+    <path d="M635 48H645M640 43V53" />
+    <path d="M1203 48H1213M1208 43V53" />
+    <path d="M67 272H77M72 267V277" />
+    <path d="M635 272H645M640 267V277" />
+    <path d="M1203 272H1213M1208 267V277" />
+  </g>
+
+  <!-- Left Content: Typography -->
+  <text x="72" y="140" fill="#09090B" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Helvetica, Arial, sans-serif" font-size="46" font-weight="600" letter-spacing="-1.2">
+    username00777
+  </text>
+
+  <text x="72" y="180" fill="#27272A" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" letter-spacing="-0.2">
+    Frontend &amp; UI Systems Engineer
+  </text>
+
+  <line x1="72" y1="210" x2="520" y2="210" stroke="#E4E4E7" stroke-width="1" />
+
+  <text x="72" y="238" fill="#52525B" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12" font-weight="500" letter-spacing="1.8">
+    TYPESCRIPT  ·  REACT  ·  NODE.JS  ·  DESIGN SYSTEMS
+  </text>
+
+  <!-- Right Emblem: Geometric Lycoris Wireframe -->
+  <g transform="translate(1060, 160)">
+    <circle r="96" stroke="#E4E4E7" stroke-width="1" stroke-dasharray="2 6" />
+    <circle r="52" stroke="#F4F4F5" stroke-width="1" />
+    <circle r="4" fill="#FAFAFA" stroke="#E11D48" stroke-width="1.5" />
+
+    <g id="petal-light">
+      <path d="M 0 -10 C -6 -42, 8 -72, 24 -84" stroke="#E11D48" stroke-width="1.4" stroke-linecap="round" />
+      <path d="M 0 -10 C 4 -48, 22 -78, 44 -94" stroke="#E11D48" stroke-opacity="0.45" stroke-width="1" stroke-linecap="round" />
+      <circle cx="44" cy="-94" r="2" fill="#E11D48" />
+    </g>
+    <use href="#petal-light" transform="rotate(60)" />
+    <use href="#petal-light" transform="rotate(120)" />
+    <use href="#petal-light" transform="rotate(180)" />
+    <use href="#petal-light" transform="rotate(240)" />
+    <use href="#petal-light" transform="rotate(300)" />
+  </g>
+</svg>
